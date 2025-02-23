@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body{
+    background-image: url(/img/wall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+.keys{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   gap: 30px;
+   min-width: 100px;
+   color: rgb(241, 229, 229);
+}
+
+.key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    padding: 19.5px 20px 0px 20px;
+    border: 1px solid  #7e399966;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition: all 0.1s;
+    background-color: #7e399966;
+    text-transform: uppercase;
+    font-family:fantasy;
+}
+
+.playing{
+    transform:scale(1,1);
+    box-shadow: 0 0 20px rgb(0, 255, 149);
+}
+
+
